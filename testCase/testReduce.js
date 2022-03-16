@@ -11,9 +11,9 @@ function printReduceValue(){
     console.log( reducedValue);
 }
 
-cb = (reduced, value,index) => reduced += value;
+cb = (reduced, value) => reduced += value;
 getReduceValue( items, cb, 0);
 
-cb = (reduced, value,index) => reduced += value;
+cb = (reduced, value) => reduced += value;
 getReduceValue( items, cb, 3);
 

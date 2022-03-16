@@ -12,8 +12,8 @@ function printMap(){
     console.log( getMappedArray);
 }
 
-cb = ( x, i) => x*2;
+cb = ( x, i, arr) => x*2;
 getMap( items, cb);
 
-cb = ( x, i) => x*x;
+cb = ( x, i, arr) => x*x;
 getMap( items, cb);

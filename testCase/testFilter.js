@@ -11,8 +11,8 @@ function printFilterArray(){
    console.log( filteredArray);
 }
 
-cb = (x) => x>3 ? true : false;
+cb = (x, i, arr) => x>3 ? true : false;
 getFilterArray(items, cb);
 
-cb = (x) => x<3 ? true : false;
+cb = (x, i, arr) => x<3 ? true : false;
 getFilterArray(items, cb);

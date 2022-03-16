@@ -16,8 +16,8 @@ function printFindValue(){
     }
 }
 
-cb = (x) => x===5 ? true : false;
+cb = (x, i, arr) => x===5 ? true : false;
 findValue(items, cb);
 
-cb = (x) => x===9 ? true : false;
+cb = (x, i, arr) => x===9 ? true : false;
 findValue(items, cb);
